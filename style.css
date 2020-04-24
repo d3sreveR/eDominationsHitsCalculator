@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: auto;
+    font-size: 18pt;
+    background: rgb(3,53,139);
+    background: linear-gradient(180deg, rgba(3,53,139,1) 0%, rgba(6,23,57,1) 50%, rgba(3,53,139,1) 100%);
+    color: white;
+}
+
+.whole{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+#energy{
+    font-size: xx-large;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#q1{
+    font-size: xx-large;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#q2{
+    font-size: xx-large;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#q3{
+    font-size: xx-large;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#q4{
+    font-size: xx-large;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#q5{
+    font-size: xx-large;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#energyBars{
+    font-size: xx-large;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.inputBars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 12px;
+    margin: 8px 0;
+}
+
+.inbutBox{
+    width: 100%;
+}
+
+.buttonDiv{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px; 
+    background: rgb(3,53,139);
+    background: linear-gradient(180deg, rgba(3,53,139,1) 0%, rgba(6,23,57,1) 50%, rgba(3,53,139,1) 100%);
+    color: white;
+    width: auto;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: xx-large;
+}
+
+.result{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.resetButton{
+    background: rgb(3,53,139);
+    background: linear-gradient(180deg, rgba(3,53,139,1) 0%, rgba(6,23,57,1) 50%, rgba(3,53,139,1) 100%);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: xx-large;
+}
